@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container text-center mt-5">
+    <h1>404 - Acceso restringido</h1>
+    <p>No puedes acceder a esta página porque ya has iniciado sesión.</p>
+    <a href="{% url 'tasks' %}" class="btn btn-primary">Ir a tareas</a>
+</div>
+{% endblock %}
